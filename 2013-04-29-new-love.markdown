@@ -1,0 +1,58 @@
+---
+layout: post
+title: "New love"
+date: 2013-04-29 19:56
+comments: true
+categories: scala, jvm, programming, project, functional
+---
+
+### Java was tiring and painful
+I was developing a small project in Java. It was okay. Java isn't very difficult to write in. But I had some strange problems. Mainly with ide, libraries, maven, ant and so on.
+
+I really hate build.xml. Oh, I do.
+
+I wanted to do something stimulating and mix some scala code into my existing java project to make it more enjoable.
+
+### Mixing scala and java
+I can't see you! It was the main reaction of my netbeans IDE. Actually mixing scala into existing java project isn't so easy. I installed special plugins for Netbeans but it didn't work, I got strange ant errors and spent a few hours reading about maven and building with ant.
+
+It was too much for me. I returned to eclipse and installed ScalaIDE which is very nice, but still I don't know how to integrate there nicely a testing environment.
+
+I created new Scala project because I read it's a better way than other way round (Scala in java) and added some of my existing java files.
+
+I wanted to integrate a JavaFX, and then ScalaFX, but I had strange problems with those libraries.
+
+###Swinging with scala
+Scala has swing library and its bindings are very intuitive and concise. So different from JavaFX!
+
+I don't know it well yet, but I grasped some basics, write a really simple gui and it WORKED. 
+
+[Simple German Swing tutorial](http://scalatutorial.de/topic177.html)
+
+[Working Sources](https://lampsvn.epfl.ch/trac/scala/browser/scala/trunk/src/swing/scala/swing/test?order=name)
+
+Enjoy.
+
+###Concise and functional scala
+[Scala on wiki](http://en.wikipedia.org/wiki/Scala_(programming_language))
+
+[Scala website](http://www.scala-lang.org/)
+
+On Scala website are links to learning materials, even free books like "Scala by example". There is also a brief tutorial (20 pages) which I recommend for the beginning, because it is a good overview. (Good start to fall in love with scala ;) )
+
+Reading scala book is quite entertaining, I've never programmed a functional language before (not counting javascript and some lisp) and learning new concepts in such an elegant form as in scala is just a pleasure.
+
+It's very expressive and still easy to use. Below you can see a small snippet of code I wrote today in the morning.
+
+{% codeblock splitContentToSentences - SummaryTool.scala %}
+def splitContentToSentences(content: String) = {
+		content.replaceAll("\n", ". ").split("\\. ").filterNot(x => x.matches("\\W+")).filterNot(x => x == "")
+}
+{% endcodeblock %}
+
+[SummaryTool.scala](https://github.com/atteroTheGreatest/laughing-archer/blob/master/src/analysis/SummaryTool.scala)
+
+###Overall impression
+Well, scala is cool. Rich type system, amazing api, conciseness make me a growing fan of scala. It's different from for example python, because it implements static typing which is usually a pain. Especially when writing with text editor not with speciallised IDE which analizes your code on the go. But in scala types are not just superfluous addition, they make code more understandable and functional and due to type inference you usually don't have to write them!
+
+Now I'll return to scala book written by Oderski (main designer of scala). Only over 600 pages to go!
