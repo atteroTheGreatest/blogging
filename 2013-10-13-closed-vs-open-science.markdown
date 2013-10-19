@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open science"
+title: "Closed vs Open science"
 date: 2013-10-13 22:22
 comments: true
 categories: 
