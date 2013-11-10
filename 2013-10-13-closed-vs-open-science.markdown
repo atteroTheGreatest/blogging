@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open science"
+title: "Closed vs Open science"
 date: 2013-10-13 22:22
 comments: true
 categories: 
@@ -55,7 +55,7 @@ Quote from [wikipedia](http://en.wikipedia.org/wiki/Open_science).
  both summary and whole information needed to understand and reproduce given research
 
 
-Without it:
+####Without it:
  
   - doing proper science is much more difficult for begginners and not affiliated groups
   - there is a space for malpractice
@@ -65,15 +65,17 @@ Without it:
 
 ###What could we do?
 
-Make your research [open](http://en.wikipedia.org/wiki/Open_research).
+ - Make our research [open](http://en.wikipedia.org/wiki/Open_research).
 
-We need [github for science](http://marciovm.com/i-want-a-github-of-science/).
+ - We need [github for science](http://marciovm.com/i-want-a-github-of-science/).
 
-Publish on [open access](http://en.wikipedia.org/wiki/Open_access) - and there is simply explained [why](http://www.youtube.com/watch?v=L5rVH1KGBCY).
+ - Publish on [open access](http://en.wikipedia.org/wiki/Open_access) - and there is simply explained [why](http://www.youtube.com/watch?v=L5rVH1KGBCY).
+
+ - Create [open notebooks](http://en.wikipedia.org/wiki/Open_notebook_science).
 
 
-Another great idea are [open notebooks](http://en.wikipedia.org/wiki/Open_notebook_science).
 From wikipedia:
+
 >Open Notebook Science is the practice of making the entire primary record of a research project publicly available online as it is recorded. This involves placing the personal, or laboratory, notebook of the researcher online along with all raw and processed data, and any associated material, as this material is generated. The approach may be summed up by the slogan 'no insider information'.
 
 I love it. It's the way I would really enjoy to learn how experiments and research are done in such a way.
@@ -85,9 +87,10 @@ I started writing this article being outraged by closed science around me. Now I
 
 Starting something new or just different is usually pretty hard. However,
 we are not alone, we have amazing tools to our disposal such as:
- - github
- - scipy stack
- - R
+
+ - [github](https://github.com/)
+ - [scipy stack](http://www.scipy.org/about.html)
+ - [R](http://www.r-project.org/)
  - wikipedia
 
 And lots of others, it would be impossible to list them all.
