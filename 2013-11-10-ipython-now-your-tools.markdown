@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "ipython-now-your-tools"
+title: "Ipython - now your tools"
 date: 2013-11-10 12:58
 comments: true
-categories: ipython science tools
+categories: ipython science tools programming research
 ---
 
 Recently I made a talk about IPython. During preparation I came across a lot of really good materials.
