@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "internet_deprivation"
+title: "Internet deprivation"
 date: 2013-11-10 12:33
 comments: true
 categories: internet addiction 
